@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ivy-module version="2.0">
+  <info version="5.3.4" organisation="Unity" module="TreeEditor" e:packageType="UnityExtension" e:unityVersion="5.3.4f1" xmlns:e="http://ant.apache.org/ivy/extra" />
+  <publications xmlns:e="http://ant.apache.org/ivy/extra">
+    <artifact name="Editor/UnityEditor.TreeEditor" type="dll" ext="dll" e:guid="adebbd281f1a4ef3a30be7f21937e02f" />
+  </publications>
+</ivy-module>

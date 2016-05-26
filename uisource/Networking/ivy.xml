@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ivy-module version="2.0">
+  <info version="5.3.4" organisation="Unity" module="UNetHLAPI" e:packageType="UnityExtension" e:unityVersion="5.3.4f1" xmlns:e="http://ant.apache.org/ivy/extra" />
+  <publications xmlns:e="http://ant.apache.org/ivy/extra">
+    <artifact name="UnityEngine.Networking" type="dll" ext="dll" e:guid="870353891bb340e2b2a9c8707e7419ba" />
+    <artifact name="Editor/UnityEditor.Networking" type="dll" ext="dll" e:guid="5f32cd94baa94578a686d4b9d6b660f7" />
+  </publications>
+</ivy-module>

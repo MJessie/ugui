@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ivy-module version="2.0">
+  <info version="5.3.4" organisation="Unity" module="EditorTestsRunner" e:packageType="UnityExtension" e:unityVersion="5.3.4f1" xmlns:e="http://ant.apache.org/ivy/extra" />
+  <publications xmlns:e="http://ant.apache.org/ivy/extra">
+    <artifact name="Editor/nunit.framework" type="dll" ext="dll" e:guid="7cbab2be89b54486bbd23a6fe637d30e" />
+    <artifact name="Editor/UnityEditor.EditorTestsRunner" type="dll" ext="dll" e:guid="3c0ad459c1534645b5d603b7cc258f97" />
+  </publications>
+</ivy-module>
