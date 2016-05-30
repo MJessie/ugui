@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ivy-module version="2.0">
-  <info version="5.3.4" organisation="Unity" module="Advertisements" e:packageType="UnityExtension" e:unityVersion="5.3.4f1" xmlns:e="http://ant.apache.org/ivy/extra" />
-  <publications xmlns:e="http://ant.apache.org/ivy/extra">
-    <artifact name="UnityEngine.Advertisements" type="dll" ext="dll" e:guid="739bbd9f364b4268874f9fd86ab3beef" />
-    <artifact name="Editor/UnityEditor.Advertisements" type="dll" ext="dll" e:guid="97decbdab0634cdd991f8d23ddf0dead" />
-  </publications>
-</ivy-module>

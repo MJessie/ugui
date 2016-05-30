@@ -1,0 +1,6 @@
+E:\mywork\unity\unity_editor\ugui\UnityEngine.UI\bin\Debug\UnityEngine.UI.dll
+E:\mywork\unity\unity_editor\ugui\UnityEngine.UI\bin\Debug\UnityEngine.UI.pdb
+E:\mywork\unity\unity_editor\ugui\UnityEngine.UI\bin\Debug\UnityEngine.dll
+E:\mywork\unity\unity_editor\ugui\UnityEngine.UI\obj\Debug\UnityEngine.UI.csprojResolveAssemblyReference.cache
+E:\mywork\unity\unity_editor\ugui\UnityEngine.UI\obj\Debug\UnityEngine.UI.dll
+E:\mywork\unity\unity_editor\ugui\UnityEngine.UI\obj\Debug\UnityEngine.UI.pdb
