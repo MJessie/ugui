@@ -21,7 +21,8 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>3</WarningLevel>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -157,11 +158,14 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
   </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>$(ProjectDir)..\..\post_build.bat $(TargetFileName)</PostBuildEvent>
+  </PropertyGroup>
   <Target Name="AfterBuild">
-    <MakeDir Directories="$(ProjectDir)..\Output\Editor" />
-    <Copy SourceFiles="$(TargetDir)$(TargetName).dll" DestinationFiles="$(ProjectDir)..\Output\Editor\$(TargetName).dll" />
-    <Copy Condition="'$(Configuration)' == 'Debug' And Exists('$(TargetDir)$(TargetName).dll.mdb')" SourceFiles="$(TargetDir)$(TargetName).dll.mdb" DestinationFiles="$(ProjectDir)..\Output\Editor\$(TargetName).dll.mdb" />
-    <Copy Condition="'$(Configuration)' == 'Debug' And Exists('$(TargetDir)$(TargetName).pdb')" SourceFiles="$(TargetDir)$(TargetName).pdb" DestinationFiles="$(ProjectDir)..\Output\Editor\$(TargetName).pdb" />
+    <MakeDir Directories="C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor" />
+    <Copy SourceFiles="$(TargetDir)$(TargetName).dll" DestinationFiles="C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\$(TargetName).dll" />
+    <Copy Condition="'$(Configuration)' == 'Debug' And Exists('$(TargetDir)$(TargetName).dll.mdb')" SourceFiles="$(TargetDir)$(TargetName).dll.mdb" DestinationFiles="C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\$(TargetName).dll.mdb" />
+    <Copy Condition="'$(Configuration)' == 'Debug' And Exists('$(TargetDir)$(TargetName).pdb')" SourceFiles="$(TargetDir)$(TargetName).pdb" DestinationFiles="C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\$(TargetName).pdb" />
     <!--Uncomment the block below and change the destination to copy the built dll into your unity install directory-->
     <!--<Copy SourceFiles="$(TargetDir)$(TargetName).dll" DestinationFiles="C:\Program Files (x86)\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\4.6.0\Editor\$(TargetName).dll"/>-->
   </Target>

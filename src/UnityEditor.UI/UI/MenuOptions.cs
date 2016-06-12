@@ -8,7 +8,7 @@ namespace UnityEditor.UI
     /// This script adds the UI menu options to the Unity Editor.
     /// </summary>
 
-    static internal class MenuOptions
+    public static class MenuOptions
     {
         private const string kUILayerName = "UI";
 

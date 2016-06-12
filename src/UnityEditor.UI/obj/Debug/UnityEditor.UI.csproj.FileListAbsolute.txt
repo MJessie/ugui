@@ -7,3 +7,12 @@ E:\mywork\unity\unity_editor\ugui\UnityEditor.UI\bin\Debug\UnityEngine.UI.pdb
 E:\mywork\unity\unity_editor\ugui\UnityEditor.UI\obj\Debug\UnityEditor.UI.csprojResolveAssemblyReference.cache
 E:\mywork\unity\unity_editor\ugui\UnityEditor.UI\obj\Debug\UnityEditor.UI.dll
 E:\mywork\unity\unity_editor\ugui\UnityEditor.UI\obj\Debug\UnityEditor.UI.pdb
+E:\mywork\unity\ugui\src\UnityEditor.UI\bin\Debug\UnityEditor.UI.dll
+E:\mywork\unity\ugui\src\UnityEditor.UI\bin\Debug\UnityEditor.UI.pdb
+E:\mywork\unity\ugui\src\UnityEditor.UI\bin\Debug\UnityEditor.dll
+E:\mywork\unity\ugui\src\UnityEditor.UI\bin\Debug\UnityEngine.dll
+E:\mywork\unity\ugui\src\UnityEditor.UI\bin\Debug\UnityEngine.UI.dll
+E:\mywork\unity\ugui\src\UnityEditor.UI\bin\Debug\UnityEngine.UI.pdb
+E:\mywork\unity\ugui\src\UnityEditor.UI\obj\Debug\UnityEditor.UI.csprojResolveAssemblyReference.cache
+E:\mywork\unity\ugui\src\UnityEditor.UI\obj\Debug\UnityEditor.UI.dll
+E:\mywork\unity\ugui\src\UnityEditor.UI\obj\Debug\UnityEditor.UI.pdb

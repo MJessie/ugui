@@ -5,3 +5,9 @@ E:\mywork\unity\unity_editor\ugui\UnityEngine.UI-Editor\bin\Debug\UnityEngine.dl
 E:\mywork\unity\unity_editor\ugui\UnityEngine.UI-Editor\obj\Debug\UnityEngine.UI-Editor.csprojResolveAssemblyReference.cache
 E:\mywork\unity\unity_editor\ugui\UnityEngine.UI-Editor\obj\Debug\UnityEngine.UI.dll
 E:\mywork\unity\unity_editor\ugui\UnityEngine.UI-Editor\obj\Debug\UnityEngine.UI.pdb
+E:\mywork\unity\ugui\src\UnityEngine.UI-Editor\bin\Debug\UnityEngine.UI.dll
+E:\mywork\unity\ugui\src\UnityEngine.UI-Editor\bin\Debug\UnityEngine.UI.pdb
+E:\mywork\unity\ugui\src\UnityEngine.UI-Editor\bin\Debug\UnityEditor.dll
+E:\mywork\unity\ugui\src\UnityEngine.UI-Editor\bin\Debug\UnityEngine.dll
+E:\mywork\unity\ugui\src\UnityEngine.UI-Editor\obj\Debug\UnityEngine.UI.dll
+E:\mywork\unity\ugui\src\UnityEngine.UI-Editor\obj\Debug\UnityEngine.UI.pdb
